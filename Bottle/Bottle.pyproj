@@ -88,6 +88,11 @@
       <ProductId>Python34</ProductId>
       <FriendlyName>Python 3.4.2 (32-bit)</FriendlyName>
     </WebPiReference>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/5.0/webproductlist.xml%3fPythonDetectInstalls">
+      <Feed>https://www.microsoft.com/web/webpi/5.0/webproductlist.xml</Feed>
+      <ProductId>PythonDetectInstalls</ProductId>
+      <FriendlyName>Python Installation Detector</FriendlyName>
+    </WebPiReference>
     <WebPiReference Include="https://www.microsoft.com/web/webpi/5.0/webproductlist.xml%3fPythonTools21ForVS2013">
       <Feed>https://www.microsoft.com/web/webpi/5.0/webproductlist.xml</Feed>
       <ProductId>PythonTools21ForVS2013</ProductId>

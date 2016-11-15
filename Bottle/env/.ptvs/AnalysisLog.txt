@@ -1226,3 +1226,8 @@ C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\Micro
 2016-11-15T14:34:34: Saving group "D:\GIT_Repositorio\Django\DjFirst\Bottle\env\Lib\site-packages\_markerlib"
 2016-11-15T14:34:34: End of group "D:\GIT_Repositorio\Django\DjFirst\Bottle\env\Lib\site-packages\_markerlib"
 2016-11-15T14:34:34: Deleting 0 files
+
+2016-11-15T15:47:51: Start analysis
+2016-11-15T15:47:51: [WARNING] Library was set explicitly - skipping path detection
+2016-11-15T15:47:51: IncludeModulesFromModulePath = win32com
+2016-11-15T15:47:52: Deleting 50 files
