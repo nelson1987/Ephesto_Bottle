@@ -81,9 +81,8 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X86</Architecture>
     </Interpreter>
-  </ItemGroup>
-  <!-- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />-->
-  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+  </ItemGroup><Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!--  Specify pre- and post-build commands in the BeforeBuild and 
        AfterBuild targets below. -->
   <Target Name="BeforeBuild">
   </Target>
