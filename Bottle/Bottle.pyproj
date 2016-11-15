@@ -81,7 +81,20 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X86</Architecture>
     </Interpreter>
-  </ItemGroup><Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/5.0/webproductlist.xml%3fPython34">
+      <Feed>https://www.microsoft.com/web/webpi/5.0/webproductlist.xml</Feed>
+      <ProductId>Python34</ProductId>
+      <FriendlyName>Python 3.4.2 (32-bit)</FriendlyName>
+    </WebPiReference>
+    <WebPiReference Include="https://www.microsoft.com/web/webpi/5.0/webproductlist.xml%3fPythonTools21ForVS2013">
+      <Feed>https://www.microsoft.com/web/webpi/5.0/webproductlist.xml</Feed>
+      <ProductId>PythonTools21ForVS2013</ProductId>
+      <FriendlyName>Python Tools 2.1 for Visual Studio 2013</FriendlyName>
+    </WebPiReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!--  Specify pre- and post-build commands in the BeforeBuild and 
        AfterBuild targets below. -->
   <Target Name="BeforeBuild">
